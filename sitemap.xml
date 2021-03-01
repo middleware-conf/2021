@@ -16,6 +16,10 @@
   </url>
   
   <url>
+    <loc>https://middleware-conf.github.io/2021/important-dates/</loc>
+  </url>
+  
+  <url>
     <loc>https://middleware-conf.github.io/2021/</loc>
     <priority>0</priority>
   </url>
