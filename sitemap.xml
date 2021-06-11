@@ -48,6 +48,10 @@
   </url>
   
   <url>
+    <loc>https://middleware-conf.github.io/2021/keynote-speakers/</loc>
+  </url>
+  
+  <url>
     <loc>https://middleware-conf.github.io/2021/</loc>
     <priority>0</priority>
   </url>
