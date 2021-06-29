@@ -73,4 +73,8 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>https://middleware-conf.github.io/2021/workshops/</loc>
+  </url>
+  
 </urlset>
