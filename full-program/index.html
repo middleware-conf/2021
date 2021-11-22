@@ -210,24 +210,30 @@ $(document).ready(function(){
   
   $("a").on('click', function(event) {
 
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
     
-    if (this.hash !== "") {
-      
-      event.preventDefault();
-
-      
-      var hash = this.hash;
-
-      
-      
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
+      if (this.hash !== "") {
+        
+        event.preventDefault();
 
         
-        window.location.hash = hash;
-      });
-    } 
+        var hash = this.hash;
+
+        
+        
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 500, function(){
+
+          
+          window.location.hash = hash;
+        });
+      }
+    }
   });
 });
 </script>
@@ -765,7 +771,7 @@ div.selectTimezone{
 
               </div>
               <div class="column right">
-                <h3><a href="../accepted-papers/#demos-poster">Demos and Posters</a><p>(14:15 &ndash; 15:15 EST) (20:15 &ndash; 21:15 CET)</p></h3>
+                <h3><a href="https://middleware-conf.github.io/2021/accepted-papers/#demos-posters">Demos and Posters</a><p>(14:15 &ndash; 15:15 EST) (20:15 &ndash; 21:15 CET)</p></h3>
                 <p>This session will be held on the ohyay platform.</p>
             </div>
             </div>
